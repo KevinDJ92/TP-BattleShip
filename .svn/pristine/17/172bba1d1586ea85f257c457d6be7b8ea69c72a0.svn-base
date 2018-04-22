@@ -1,0 +1,21 @@
+package listeners;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JMenuItem;
+
+import controller.GameController;
+import views.principals.GameJMenuItem;
+
+public class resetListener implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent event) {
+		
+		GameJMenuItem resetGame = (GameJMenuItem) event.getSource();
+		resetGame.setBntIsPressed(true);
+		
+	}
+	
+}
