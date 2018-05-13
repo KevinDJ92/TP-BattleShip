@@ -404,12 +404,6 @@ public class Joueur {
 			this.vie -= 1;
 		}
 	}
-	// public boolean testMortFlotte(Joueur joueur) {
-	// if (joueur.vie == 0) {
-	// return true;
-	// }
-	// return false;
-	// }
 
 	public String getName() {
 		return name;
@@ -442,5 +436,4 @@ public class Joueur {
 	public void setVie(int vie) {
 		this.vie = vie;
 	}
-
 }
